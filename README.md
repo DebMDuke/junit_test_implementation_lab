@@ -1,4 +1,4 @@
-# junit_test_implementation_lab
+# JUnit Test Implementation lab
 Practice writing JUnit tests for a project specification
 
 Suppose that you've been given the following project to write a Java class called CustomDate that represents a simple date consisting of a month, day, and year.  It has three data fields of type int to represent the date.  For example, July 4, 1776, is month 7, day 4, and year 1776.  
