@@ -75,7 +75,8 @@ JUnit tells you which test failed (`evaluatesExpression(CalculatorTest)`) and wh
     java.lang.AssertionError: expected:<6> but was:<-6>
 
 ### Now Write the JUnit test for a class
-Here's a description of the Class MyBook
+Here's a description of the Class MyBook:
+
 MyBook has five String fields: title, authorFirstName, authorLastName, and two forms of identifiers isbn10 and isbn13.  Design the class so that individual instances never contain null fields. 
 
 MyBook class has two constructors. The default constructor sets the title, authorFirstName, and authorLastName fields to the string, "None Given” and both isbn10 and isbn13 to a String containing all zeroes. The overloaded constructor has five String parameters and initializes title, authorFirstName, authorLastName, isbn10, and isbn13 with these values. 
