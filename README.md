@@ -75,7 +75,7 @@ JUnit tells you which test failed (`evaluatesExpression(CalculatorTest)`) and wh
     java.lang.AssertionError: expected:<6> but was:<-6>
 
 ### Now Write the JUnit test for a class
-##Here's a description of the Class MyBook
+Here's a description of the Class MyBook
 MyBook has five String fields: title, authorFirstName, authorLastName, and two forms of identifiers isbn10 and isbn13.  Design the class so that individual instances never contain null fields. 
 
 MyBook class has two constructors. The default constructor sets the title, authorFirstName, and authorLastName fields to the string, "None Given” and both isbn10 and isbn13 to a String containing all zeroes. The overloaded constructor has five String parameters and initializes title, authorFirstName, authorLastName, isbn10, and isbn13 with these values. 
@@ -83,6 +83,8 @@ MyBook class has two constructors. The default constructor sets the title, autho
 Use this method header for the parameterized constructor:
 public MyBook(String title, String authorFirstName, String authorLastName, String isbn10, String isbn13)
 
-Implement accessor (getter) and mutator (setter) methods for each of the instance variables. In addition, define the equals method that inherits from Object.
+Implement accessor (getter) and mutator (setter) methods for each of the instance variables. In addition, define the equals method that inherits from Object. 
 
-In this lab you'll be implementing the JUnit test class for the MyBook class.
+In order to compare objects of the class, MyBook will implement the Comparable<MyBook> interface.
+
+In this lab you'll be implementing the JUnit test class for the MyBook class. Starter code is provided for the test class.
